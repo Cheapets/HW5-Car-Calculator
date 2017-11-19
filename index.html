@@ -1,0 +1,110 @@
+<!--
+    Name: Sonny Chea, shaquill_chea@student.uml.edu
+    Computer Science Department, UMass Lowell
+    Comp.4610, GUI Programming I
+    File: /usr/cs/undergrad/2018/schea/Desktop/schea/Assignment#5/index.html
+    Created: 11-nov-2017
+    Last updated by SC: 19-nov-2017
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">        
+    <title>Assignment#5</title> 
+    <meta name = "description" content = "Table calculator">
+    <meta name = "author" content = "Sonny Chea">
+ <!--
+    Linking up the CSS and JS sheets 
+ -->
+    <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+    <script src = "js/process.js"></script>
+</head>
+<body>
+	<h1 id = "head_1">  Interactive Dynamic Table </h1>
+        <form name="finances">
+                <div id = "calc_body">
+                  <div id = "top_bar">
+                    <div>
+                      <label for="months">Period of Months</label><br>
+                     <input type="number" id="months" class="form-control" value="0.00">
+                    </div>                    <div>
+                      <label for="months">Prices for Gas</label><br>
+                     <input type="number" id="gasprice" class="form-control" value="0.00">
+                    </div>
+                  </div>
+				  <br>
+                  
+                  <div class="row">
+              
+                    <div id = "table_div">
+                      <div class="table-responsive">
+                        <table id="content_table" class="table">
+                             <tr>
+                               <td>PRICE/FUEL CONSUMPTION</td>
+                               <td></td>
+                               <td><input type="number" id="price1" class="form-control" value="0.00"></td>
+                               <td><input type="number" id="price2" class="form-control" value="0.00"></td>
+                               <td><input type="number" id="price3" class="form-control" value="0.00"></td>
+                               <td><input type="number" id="price4" class="form-control" value="0.00"></td>
+                             </tr>
+                             <tr>
+                               <td>MPG 1:</td>
+                               <td><input type="number" id="mpg1" class="form-control" value="0.00"></td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                             </tr>
+                             <tr>
+                               <td>MPG 2:</td>
+                               <td><input type="number" id="mpg2" class="form-control" value="0.00"></td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                             </tr>
+                             <tr>
+                               <td>MPG 3:</td>
+                               <td><input type="number" id="mpg3" class="form-control" value="0.00"></td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                             </tr>
+                             <tr>
+                               <td>MPG 4:</td>
+                               <td><input type="number" id="mpg4" class="form-control" value="0.00"></td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                               <td>$0.00</td>
+                             </tr>
+                         </table>
+                        </div>
+                      </div>
+                      </div>
+                      <br>
+                      <br>
+                      <br>
+ 
+<!--
+						Below is the code for the calculate button
+-->
+                        <div id ="calc_button">
+                          <button type="button" class="btn btn-lg btn-success submit" onClick="calculations()">Calculate</button>
+                        </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </form>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+        
+</body>
+</html>
