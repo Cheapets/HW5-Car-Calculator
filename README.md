@@ -1,2 +1,1 @@
-# HW5-Car-Calculator
-Updating my Car Calculator using JQuery
+# HW5-Car-Calculator using Jquery
